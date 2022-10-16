@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --bg-color: "#fdfcfc";
+  --text-color: "#0e0905";
+  --secondary-bg-color: "#0e0905";
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Cormorant", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+body {
+  font-family: var(--primary-font);
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+nav {
+  height: 8vh;
+  font-weight: 500;
+  border-bottom: 1px solid #0e090552;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 50px;
+}
+.logo img {
+  width: 100%;
+}
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.smooth-mag {
+  width: 150px;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.links li {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.links a {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+.links a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #0e0905;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+.links a::after {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.links a:hover::after,
+.links a:focus::after {
+  transform: translate3d(0, 0, 0);
+}
+
+.hero {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta {
+  font-size: 1.5rem;
+  border: 3px solid #0e0905;
+  padding: 0.6rem 1.2rem;
+  color: #0e0905;
+  transition: 0.2s ease;
+  margin: 2rem 0;
+}
+.cta:hover,
+.cta:focus {
+  background-color: #0e0905;
+  color: white;
+}
+.title {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+.headline {
+  width: 100%;
+  height: 20vh;
+}
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+.hero-container img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  padding-bottom: 0.7rem;
+}
+/* EXHIBITION PAGE START */
+.horizontal-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  height: 72vh;
+}
+.horizontal {
+  width: 800px;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+}
+/* EXHIBITION PAGE END */
+
+.topic {
+  margin: 2rem 0;
+}
+/* TRANSITION START */
+
+ul.transition {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  pointer-events: none;
+}
+ul.transition li {
+  transform: scaleY(0);
+  background-color: #0e0905;
+  width: 20%;
+}
+
+/* TRANSITION END */
+
+/* ARTISTS PAGE START */
+.artists-wrapper {
+  margin: 2rem 0;
+}
+.artist {
+  display: flex;
+  background-color: #0e0905;
+  width: 100%;
+  height: 80px;
+  color: white;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.pp {
+  height: 100%;
+  width: 100px;
+}
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.short-info h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.short-info h3 > span {
+  font-size: 1.2rem;
+}
+.short-info p {
+  font-weight: 400;
+}
+.long-info {
+  display: none;
+}
+.arrow {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 25px;
+  cursor: pointer;
+}
+.arrow-active {
+  transform: rotate(180deg);
+}
+.show {
+  display: block;
+}
+/* ARTISTS PAGE END */
+
+/* PHOTOGRAPHY PAGE START */
+.photograph {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  padding: 1rem 0;
+  gap: 1rem;
+  margin: 2rem 0;
+  border-bottom: 3px solid #28ffbf;
+}
+.photograph img {
+  width: 100%;
+  object-fit: cover;
+}
+.article p {
+  margin-top: 1rem;
+}
+.article div {
+  position: relative;
+  height: 50px;
+  background-color: white;
+  font-size: 1.4rem;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+.article div::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #28ffbf;
+}
+/* PHOTOGRAPHY PAGE END */

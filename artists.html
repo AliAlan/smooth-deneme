@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/smooth mag.svg"
+      type="image/x-icon"
+    />
+    <title>Smooth Mag</title>
+  </head>
+  <body data-barba="wrapper">
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="./assets/logo.png" alt="logo" /></a>
+        </div>
+        <ul class="links">
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="exhibition.html">Exhibition</a></li>
+          <li><a href="artists.html">Artists</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main data-barba="container" data-barba-namespace="artists">
+      <div class="container">
+        <img src="./assets/artists.svg" alt="" class="headline" />
+
+        <div class="artists-wrapper"></div>
+        <template class="template">
+          <div class="artist">
+            <img src="./assets/arrow-down.png" alt="" class="arrow" />
+            <div class="pp">
+              <img class="profile" src="" alt="" />
+            </div>
+
+            <div class="info">
+              <div class="short-info">
+                <h3>
+                  aaaa
+                  <span id="register">aaa</span>
+                </h3>
+                <p>aaa</p>
+              </div>
+              <div class="long-info">aaa</div>
+            </div>
+          </div>
+        </template>
+      </div>
+    </main>
+
+    <script src="artist.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Cindy Sherman",
+    "register": "American, born 1954",
+    "photo": "./assets/cindy-sherman.jpg",
+    "short_info": "Cindy Sherman is an American conceptual artist. She is one of the most influential artists in the modern age of photography.",
+    "long_info": "This is easy to understand, especially when she has two images on the list of The 10 Most Expensive Photographs in the World. Her photography explores contemporary identity and the nature of representation. These are drawn from the unlimited supply of images from TV, magazines, the internet and art history. Sheplaces herself in her own work, using a range of disguises andpersonas. They are disturbing, distasteful and sometimes amusing.Besides being a photographer, she is also a model, hairdresser, stylist and makeup artist."
+  },
+  {
+    "name": "Robert Frank",
+    "register": "American, born 1924",
+    "photo": "./assets/robert-frank.jpg",
+    "short_info": "There was never a more prolific photographer than Robert Frank. From 1941, he worked as a commercial photographer in Zurich, Basel and Geneva.",
+    "long_info": "In 1947, he found a job as a fashion photographer in the US. He used his 35mm Leica, unconventional at the time. Between 1950 and ’59 he turned his attention to street photography and photojournalism.This is where he became most famous. The Guggenheim Fellowship allowed him to travel the country, resulting in his most famous work: The Americans. He worked closely to Walker Evans and became one of the world’s most famous street photographers. He completed his visuals with text, written straight onto the negatives and prints."
+  },
+  {
+    "name": "Eliot Porter",
+    "register": "American, born 1901",
+    "photo": "./assets/eliot-porter.jpeg",
+    "short_info": "Eliot Furness Porter was an American photographer famous for his colourful nature photos.",
+    "long_info": "He started to photograph birds and landscapes with a Kodak box camera as a child.Porter got a Leica in 1930. In 1933, he was inspired by the photographs of Ansel Adams. Ansel Adams encouraged him to work with a large-format camera.Porter did so after meeting Alfred Stieglitz, who exhibited his work at An American Place in 1939."
+  },
+  {
+    "name": "Imogen Cunningham",
+    "register": "American, born 1883",
+    "photo": "./assets/imogen.jpg",
+    "short_info": "Imogen Cunningham was a famous photographer from the US. She is known for her botanical photography, industrial landscapes and nudes. Cunningham was also a member of the California-based Group f/64.",
+    "long_info": "Cunningham’s early work consisted of soft focus and blurred imagery. These gave a mystery to the photographed figure.As Cunningham began experimenting with sharper, crisper images she began to create a style known as sharp focus photography."
+  },
+  {
+    "name": "Frans Lanting",
+    "register": "Dutch, born 1951",
+    "photo": "./assets/frans-lanting.jpg",
+    "short_info": "Frans Lanting is a Dutch photographer specialising in wildlife photography. He operates a studio and gallery as well as a stock photography services in Santa Cruz, USA.",
+    "long_info": "Lanting works in many different parts of the world including the Amazon basin, Africa and Antarctica. His famous photographs regularly appear in National Geographic, where he served as photographer-in-residence."
+  },
+  {
+    "name": "Don McCullin",
+    "register": "British, born 1935",
+    "photo": "./assets/don-mc.jpeg",
+    "short_info": "Sir Donald McCullin is a British photojournalist. He is well known for his war photography and images of urban strife.",
+    "long_info": "His career spans over six decades. He specialised in examining the underside of society. McCullin presents photographs that depict the unemployed, downtrodden and the impoverished.He is a photojournalist without equal. Whether documenting the poverty of London’s East End, or the horrors of wars in Africa, Asia or the Middle East.At the same time, he also creates beautiful still lifes, soulful portraits and moving landscapes."
+  },
+  {
+    "name": "Anne Geddes",
+    "register": "Australian, born 1956",
+    "photo": "./assets/anne-geddes.jpeg",
+    "short_info": "Anne Geddes is an Australian-born photographer, who currently lives and works in New York. Her newborn pictures made her a world-famous photographer.",
+    "long_info": "She taught herself photography and became a professional when she was 30 years old. Her books have been published in 83 countries and sold more than 18 million copies. In 1997, Cedco Publishing sold more than 1.8 million calendars and datebooks bearing Geddes’ photography.Her debut book, Down in the Garden, reached the New York Times Bestseller List. Anne also created a philanthropic program to raise awareness for child neglect and abuse."
+  },
+  {
+    "name": "Robert Doisneau",
+    "register": "Australian, born 1912",
+    "photo": "./assets/robert-doisneu.jpg",
+    "short_info": "Robert Doisneau was a French photographer. In the 1930s he captured the streets of Paris. He was a master of humanist photography.",
+    "long_info": "Alongside Henri Cartier-Bresson, he was a pioneer of photojournalism. Doisneau was famous for his modest, playful, and iconic images. His was influenced by Atget, Kertesz and Henri Cartier-Bresson.His photographs make you stare for a long time because of their unique atmosphere. Doisneau words describe his art in the perfect way:“The marvels of daily life are so exciting; no movie director can arrange the unexpected that you find in the street.”"
+  }
+]
